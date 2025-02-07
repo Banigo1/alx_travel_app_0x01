@@ -28,9 +28,6 @@ urlpatterns = [
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 ]
 
-# alx_travel_app_0x01/urls.py
-
-
 # alx _travel_app Swagger Integration
 
 schema_view = get_schema_view(
